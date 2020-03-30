@@ -1,0 +1,61 @@
+Visualitza aquestos vídeos i després entrega un informe escrit en format pdf responent a les preguntes.
+
+https://www.youtube.com/watch?v=IFvBNeG9Eic
+https://www.youtube.com/watch?v=yluJdgintnI
+https://www.youtube.com/watch?v=f2l8m0bH7YQ
+https://www.youtube.com/watch?v=xNkpnrkVAVs
+https://www.youtube.com/watch?v=-utuLMMWwSY
+
+- Que signifiquen les sigles PWD en un ventilador? Es pot configurar la velocitat? Quants pins te el connector? Les plaques bases actuals incorporen eixe connector?
+PWM es el acrónimo de Pulse Width Modulation. Es la teconología que permite al ventilador una conexión y desconexión de la energía a cada pulso, es decir, regular la potencia que le llega al ventilador para así manejar su velocidad.
+Si que se pueden configurar la velocidad de dichos ventiladores para adaptarse a la situación de necesidad de ventilación, sacrificando el ruido que pueda ocasionar.
+Los ventiladores normales tienen 3 pines per si incorpora PWD necesita de 4 pines, es uno mas en el cual incorpora dicha tecnología de PWD. Esta técnologia se suele implementar mas en las placas bases mas modernas.
+
+- Explica les diferències entre els ventiladors de pressió estàtica i els de flux d’aire.
+Estática: Disipadores y radioadores, en poco espacio, apegados, disipan en cono
+
+Flujo de aire: Su simple funcion es hacer que pase la mayor cantidad de aire a través de el, sin importar la intensidad, depende del modelo se puede disipar el aire de forma recta o en cono.
+
+- Quina configuració és millor, push o pull?
+Push es cuando se pone el ventilador en una posicion en la cual el aire choca directamente contra el dispositivo que queremos ventilar. 
+
+Y pull es cuando ponemos el ventilador al reves, es decir, la parte del ventilador que extrae el aire esta al lado contrario del dispositivo que queremos ventilar.
+
+Entre los dos no se nota mucha diferencia de rendimiento, pero pull es  mas facil de limpiar. Además se pueden combinar (de la forma correcta como en la foto), siempre que los ventiladores sean iguales (de la misma potencia) para no modificar el flujo de aire.
+
+- Afecta la disposició i el número de ventiladors a l’entrada de pols i brutícia al PC? Explica-ho relacionant-ho amb la pressió positiva i negativa.
+Si que afecta la disposición de los ventiladores, partimos de la base de la fisica, donde el aire caliente tiende a subir y el frio a quedarse en la superficie, debido a eso, para tener una correcta disposición de una refrigeración del equipo, los ventiladores que inyecten el arie frio tienen que situarse en la parte inferior-media de la caja, y los ventiladores que se encarguen de extraer el aire tienen que estar colocados en la parte media-superior de la caja.
+
+También tenemos que recordar que siempre tenemos que colocar bien la disposición de los cables, ya que si estos se encuentran por enmedio de los componentes anulan la mayor parte de la eficiencia de los ventiladores, para ello se suelen pasar los cables por una parte trasera de la placa base dentro de la caja.
+
+
+Ahora también nos influye el factor de presion negativa y presión positiva:
+- Presion positiva: cuando se dispone de mas ventiladores extrayendo aire que introduciendo aire, vamos a expulsar mucha mas cantidad de aire caliente pero esto conlleva alguna desventaja, ya que la presión del aire entra por muchas mas ranuras de la caja y no por las entradas de los ventiladores push,además esto genera una mayor cantidad de polvo y suciedad esparcida por la caja.
+
+- Presión negativa: es el caso contrario que el anterior, en este caso se acumula un poco mas de aire caliente dentro de la caja y se pierde un poco de eficacia pero evitamos que se acumule el polvo en la caja.
+
+- Què són els CFM i en que afecten a la refrigeració?
+Los CFM es la cantidad de aire que es capaz de generar nuestro ventilador, 1 CFM = 28,31 L/min.
+Es fundamental para nuetra refrigeración asi podemos controlar la energía y funcionalidad de cada ventilador para calcular si tenemos una presion negativa o positiva en nuetro equipo.
+
+- En proves de test de estress, com afecten el número de ventiladors, i la seua configuració a la temperatura? És viable la configuració Bazooka per a tindre-la sempre al màxim?
+En el segundo video en las pruebas de estrés, esta comprobado que la ventilación positiva consigue unos grados mas de refrigeración que la negativa, esto influye mucho a la gente que trabaja con temas de overclocking.
+
+En el tercer video:
+
+El numero de ventiladores influye siempre en los resultados, pero no siempre será la mejor opción colocar el mayor numero de ventiladores ya que ocasionaria un ruido muy elevado.
+Como se puede ver, en las pruebas realizadas en el tercer video, la opción mas eficaz es la de Push & Pull, ya que simplemente se han utilizado dos ventiladores y la temperatura no varia mucho respecto a la del Bazooka donde se han llegado a utilzar hasta 6 ventiladores.
+Es mejor opción poner los 2 ventiladores en Push & Pull, que poner dos ventiladores apegados en Push o en Pull, ya que esto ocasiona una perdida de eficiencia en el segundo ventilador, es decir el primer ventilador apegado al dispositivo tendria una eficacia del 100% y el segundo alcanzaria un 80% por poner un ejemplo, en cambio en Push and Pull los dos tendrian un 100%.
+
+- És convenient utilitzar refrigeració líquida en tots els pcs?
+No, cabe tener en cuenta siempre la funcion que va a tener dicho equipo, si va a tener unicamente tarear ofimaticas no requiere de ningun tipo de refrigeración liquida, ya que sus temperaturas van a ser minimas.
+En cambio equipos destinados a Gaming o Overclocking si que es conveniente realizar este tipo de instalación, ya que estos equipos trabajan a un alto rendimiento, los resultados con la refrigeración liquida con mas optimos comparados a los por defecto de aire siempre y cuando se conserver un buen mantenimiento de la refrigeración liquida.
+
+- Quines dos tipus genèrics de refrigeració líquida tenim? Són reparables de forma senzilla?
+De dos unidades o de una unica unidad. Como norma general se tiene que llevar un mantenimiendo del liquido de estas, para evitar la entrada de burbujas de aire o la perdida de liquido a través de las pequeñas perdidas de calor, como norma general su reparacion suele ser senzilla (rellenar liquido).
+Estas revisiones suelen tener una periocidad de dos años. En un principio siguiendo estos consejos no se nos tendria que fastidiar ningún componente como puede ser la bomba de la refrigeración liquida la cual es afectada por el aire que se puede producir.
+
+- Si tenim pensat muntar un equip amb refrigeració líquida, quines consideracions hem de fer a l’hora de triar la torre? En que pot afectar la inclinació del radiador al funcionament o possibles avaries?
+Como se ha comentado en la pregunta anterior es necesario llevar un correcto mantenimiento para evitar daños en nuestro sistema de refrigeración.
+Para ello cabe destacar el correcto posicionamiento de dicha refrigeración, siempre y cuando los tubos lo permitan se deben de colocar hacia la parte inferior, no hacia la parte superior si hablamos de colocarla verticalmente, en el caso de colocarla horizontalmente, es recomendable colocar unas tuercas de mas para inclinar el deposito y así evitar la circulación por los tubos de las bolas de aire generadas, y así evitar de nuevo que lleguen a la bomba, como bien se explica en el último video.
+
